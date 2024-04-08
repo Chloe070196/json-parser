@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "nodemon --exec jasmine"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "^5.1.0"
+    "jasmine": "^5.1.0",
+    "nodemon": "^3.1.0"
   }
 }
